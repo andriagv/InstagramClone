@@ -1,0 +1,24 @@
+{
+  "originHash" : "011a17e3674dde6653580295dac2566fa3e06a0cc0629649deee1b69ee11e798",
+  "pins" : [
+    {
+      "identity" : "dateformatterservice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andriagv/DateFormatterService.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2f8549747dea128cd00d45ea478df6fba796b55c"
+      }
+    },
+    {
+      "identity" : "networkpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Irakli66/NetworkPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ef3961e0a55c1853d25acbe30b579fb111614bda"
+      }
+    }
+  ],
+  "version" : 3
+}

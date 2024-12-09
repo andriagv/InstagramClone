@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DBFC682CF3C2E600F24865 /* DateFormatterService in Frameworks */ = {isa = PBXBuildFile; productRef = 18DBFC672CF3C2E600F24865 /* DateFormatterService */; };
+		CB4E15462CF104B800B2B9CF /* NetworkPackage in Frameworks */ = {isa = PBXBuildFile; productRef = CB4E15452CF104B800B2B9CF /* NetworkPackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C104EB102CF4C7B400B7E5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4E14FA2CF08AC300B2B9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4E15012CF08AC300B2B9CF;
+			remoteInfo = Insatgram;
+		};
+		C104EB1D2CF4C7C400B7E5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4E14FA2CF08AC300B2B9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4E15012CF08AC300B2B9CF;
+			remoteInfo = Insatgram;
+		};
+		CB08AB1E2CF4B7DE008DA109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB4E14FA2CF08AC300B2B9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB4E15012CF08AC300B2B9CF;
+			remoteInfo = Insatgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C104EB0C2CF4C7B400B7E5B7 /* UserInfoVMTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInfoVMTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C104EB192CF4C7C400B7E5B7 /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB08AB1A2CF4B7DE008DA109 /* InsatgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsatgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4E15022CF08AC300B2B9CF /* Insatgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insatgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CB4E15142CF08AC500B2B9CF /* Exceptions for "Insatgram" folder in "Insatgram" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CB4E15012CF08AC300B2B9CF /* Insatgram */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C104EB0D2CF4C7B400B7E5B7 /* CollectionVmTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CollectionVmTests;
+			sourceTree = "<group>";
+		};
+		C104EB1A2CF4C7C400B7E5B7 /* LikesPageVMTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LikesPageVMTest;
+			sourceTree = "<group>";
+		};
+		CB08AB1B2CF4B7DE008DA109 /* MainPageVmTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MainPageVmTests;
+			sourceTree = "<group>";
+		};
+		CB4E15042CF08AC300B2B9CF /* Insatgram */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CB4E15142CF08AC500B2B9CF /* Exceptions for "Insatgram" folder in "Insatgram" target */,
+			);
+			path = Insatgram;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C104EB092CF4C7B400B7E5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C104EB162CF4C7C400B7E5B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB08AB172CF4B7DE008DA109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E14FF2CF08AC300B2B9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4E15462CF104B800B2B9CF /* NetworkPackage in Frameworks */,
+				18DBFC682CF3C2E600F24865 /* DateFormatterService in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB4E14F92CF08AC300B2B9CF = {
+			isa = PBXGroup;
+			children = (
+				CB4E15042CF08AC300B2B9CF /* Insatgram */,
+				CB08AB1B2CF4B7DE008DA109 /* MainPageVmTests */,
+				C104EB0D2CF4C7B400B7E5B7 /* CollectionVmTests */,
+				C104EB1A2CF4C7C400B7E5B7 /* LikesPageVMTest */,
+				CB4E15032CF08AC300B2B9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB4E15032CF08AC300B2B9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E15022CF08AC300B2B9CF /* Insatgram.app */,
+				CB08AB1A2CF4B7DE008DA109 /* InsatgramTests.xctest */,
+				C104EB0C2CF4C7B400B7E5B7 /* UserInfoVMTest.xctest */,
+				C104EB192CF4C7C400B7E5B7 /* Test.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C104EB0B2CF4C7B400B7E5B7 /* UserInfoVMTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C104EB122CF4C7B400B7E5B7 /* Build configuration list for PBXNativeTarget "UserInfoVMTest" */;
+			buildPhases = (
+				C104EB082CF4C7B400B7E5B7 /* Sources */,
+				C104EB092CF4C7B400B7E5B7 /* Frameworks */,
+				C104EB0A2CF4C7B400B7E5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C104EB112CF4C7B400B7E5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C104EB0D2CF4C7B400B7E5B7 /* CollectionVmTests */,
+			);
+			name = UserInfoVMTest;
+			packageProductDependencies = (
+			);
+			productName = UserInfoVMTest;
+			productReference = C104EB0C2CF4C7B400B7E5B7 /* UserInfoVMTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C104EB182CF4C7C400B7E5B7 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C104EB1F2CF4C7C400B7E5B7 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				C104EB152CF4C7C400B7E5B7 /* Sources */,
+				C104EB162CF4C7C400B7E5B7 /* Frameworks */,
+				C104EB172CF4C7C400B7E5B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C104EB1E2CF4C7C400B7E5B7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C104EB1A2CF4C7C400B7E5B7 /* LikesPageVMTest */,
+			);
+			name = Test;
+			packageProductDependencies = (
+			);
+			productName = Test;
+			productReference = C104EB192CF4C7C400B7E5B7 /* Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB08AB192CF4B7DE008DA109 /* InsatgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB08AB222CF4B7DF008DA109 /* Build configuration list for PBXNativeTarget "InsatgramTests" */;
+			buildPhases = (
+				CB08AB162CF4B7DE008DA109 /* Sources */,
+				CB08AB172CF4B7DE008DA109 /* Frameworks */,
+				CB08AB182CF4B7DE008DA109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB08AB1F2CF4B7DE008DA109 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CB08AB1B2CF4B7DE008DA109 /* MainPageVmTests */,
+			);
+			name = InsatgramTests;
+			packageProductDependencies = (
+			);
+			productName = InsatgramTests;
+			productReference = CB08AB1A2CF4B7DE008DA109 /* InsatgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB4E15012CF08AC300B2B9CF /* Insatgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB4E15152CF08AC500B2B9CF /* Build configuration list for PBXNativeTarget "Insatgram" */;
+			buildPhases = (
+				CB4E14FE2CF08AC300B2B9CF /* Sources */,
+				CB4E14FF2CF08AC300B2B9CF /* Frameworks */,
+				CB4E15002CF08AC300B2B9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CB4E15042CF08AC300B2B9CF /* Insatgram */,
+			);
+			name = Insatgram;
+			packageProductDependencies = (
+				CB4E15452CF104B800B2B9CF /* NetworkPackage */,
+				18DBFC672CF3C2E600F24865 /* DateFormatterService */,
+			);
+			productName = Insatgram;
+			productReference = CB4E15022CF08AC300B2B9CF /* Insatgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB4E14FA2CF08AC300B2B9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C104EB0B2CF4C7B400B7E5B7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CB4E15012CF08AC300B2B9CF;
+					};
+					C104EB182CF4C7C400B7E5B7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CB4E15012CF08AC300B2B9CF;
+					};
+					CB08AB192CF4B7DE008DA109 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CB4E15012CF08AC300B2B9CF;
+					};
+					CB4E15012CF08AC300B2B9CF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CB4E14FD2CF08AC300B2B9CF /* Build configuration list for PBXProject "Insatgram" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB4E14F92CF08AC300B2B9CF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CB4E15442CF104B800B2B9CF /* XCRemoteSwiftPackageReference "NetworkPackage" */,
+				18DBFC662CF3C2E600F24865 /* XCRemoteSwiftPackageReference "DateFormatterService" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CB4E15032CF08AC300B2B9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB4E15012CF08AC300B2B9CF /* Insatgram */,
+				CB08AB192CF4B7DE008DA109 /* InsatgramTests */,
+				C104EB0B2CF4C7B400B7E5B7 /* UserInfoVMTest */,
+				C104EB182CF4C7C400B7E5B7 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C104EB0A2CF4C7B400B7E5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C104EB172CF4C7C400B7E5B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB08AB182CF4B7DE008DA109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E15002CF08AC300B2B9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C104EB082CF4C7B400B7E5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C104EB152CF4C7C400B7E5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB08AB162CF4B7DE008DA109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4E14FE2CF08AC300B2B9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C104EB112CF4C7B400B7E5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4E15012CF08AC300B2B9CF /* Insatgram */;
+			targetProxy = C104EB102CF4C7B400B7E5B7 /* PBXContainerItemProxy */;
+		};
+		C104EB1E2CF4C7C400B7E5B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4E15012CF08AC300B2B9CF /* Insatgram */;
+			targetProxy = C104EB1D2CF4C7C400B7E5B7 /* PBXContainerItemProxy */;
+		};
+		CB08AB1F2CF4B7DE008DA109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB4E15012CF08AC300B2B9CF /* Insatgram */;
+			targetProxy = CB08AB1E2CF4B7DE008DA109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C104EB132CF4C7B400B7E5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.UserInfoVMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insatgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insatgram";
+			};
+			name = Debug;
+		};
+		C104EB142CF4C7B400B7E5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.UserInfoVMTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insatgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insatgram";
+			};
+			name = Release;
+		};
+		C104EB202CF4C7C400B7E5B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insatgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insatgram";
+			};
+			name = Debug;
+		};
+		C104EB212CF4C7C400B7E5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insatgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insatgram";
+			};
+			name = Release;
+		};
+		CB08AB202CF4B7DE008DA109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS532A644D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbc.InsatgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insatgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insatgram";
+			};
+			name = Debug;
+		};
+		CB08AB212CF4B7DE008DA109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS532A644D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbc.InsatgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insatgram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insatgram";
+			};
+			name = Release;
+		};
+		CB4E15162CF08AC500B2B9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS532A644D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Insatgram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbc.Insatgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4E15172CF08AC500B2B9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS532A644D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Insatgram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tbc.Insatgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB4E15182CF08AC500B2B9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB4E15192CF08AC500B2B9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C104EB122CF4C7B400B7E5B7 /* Build configuration list for PBXNativeTarget "UserInfoVMTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104EB132CF4C7B400B7E5B7 /* Debug */,
+				C104EB142CF4C7B400B7E5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C104EB1F2CF4C7C400B7E5B7 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104EB202CF4C7C400B7E5B7 /* Debug */,
+				C104EB212CF4C7C400B7E5B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB08AB222CF4B7DF008DA109 /* Build configuration list for PBXNativeTarget "InsatgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB08AB202CF4B7DE008DA109 /* Debug */,
+				CB08AB212CF4B7DE008DA109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4E14FD2CF08AC300B2B9CF /* Build configuration list for PBXProject "Insatgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4E15182CF08AC500B2B9CF /* Debug */,
+				CB4E15192CF08AC500B2B9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB4E15152CF08AC500B2B9CF /* Build configuration list for PBXNativeTarget "Insatgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB4E15162CF08AC500B2B9CF /* Debug */,
+				CB4E15172CF08AC500B2B9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18DBFC662CF3C2E600F24865 /* XCRemoteSwiftPackageReference "DateFormatterService" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andriagv/DateFormatterService.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		CB4E15442CF104B800B2B9CF /* XCRemoteSwiftPackageReference "NetworkPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Irakli66/NetworkPackage.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18DBFC672CF3C2E600F24865 /* DateFormatterService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18DBFC662CF3C2E600F24865 /* XCRemoteSwiftPackageReference "DateFormatterService" */;
+			productName = DateFormatterService;
+		};
+		CB4E15452CF104B800B2B9CF /* NetworkPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB4E15442CF104B800B2B9CF /* XCRemoteSwiftPackageReference "NetworkPackage" */;
+			productName = NetworkPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB4E14FA2CF08AC300B2B9CF /* Project object */;
+}
